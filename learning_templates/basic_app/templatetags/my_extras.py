@@ -1,7 +1,7 @@
 # this is for creating custorm template fileters
 from django import template
 
-register=template.library()
+register=template.Library()
 
 # below is the use of decorators
 @register.filter(name='cut')
