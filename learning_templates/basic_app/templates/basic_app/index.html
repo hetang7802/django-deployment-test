@@ -3,12 +3,15 @@
 {% extends "basic_app/base.html" %}
   {% block body_block %}
     <h1>Hello, Welcome to my website</h1>
-    <h2>done using template inheritance!</h2>
+    <h3>Currently pursuing B.Tech in Computer Science and Engineering at IIT Guwahati</h3>
+    <p>Interests: programming enthusiast, love to code </p>
+    <br><br>
+    <!-- <h2>done using template inheritance!</h2> -->
     <!-- below we use template filters -->
-    <h3>{{ text|upper }}</h3>
-    <h3>{{ text|cut:'hello' }}</h3>
+    <!-- <h3>{{ text|upper }}</h3> -->
+    <!-- <h3>{{ text|cut:'hello' }}</h3> -->
     <!-- cut is the custom filter we created in the templatetags/my_extras file -->
-    <h3>{{ number|add:"10" }}</h3>
+    <!-- <h3>{{ number|add:"10" }}</h3> -->
   {% endblock %}
 
 <!-- <html lang="en" dir="ltr">
